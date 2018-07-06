@@ -1,0 +1,141 @@
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+
+#map{
+	width: 100%;
+	height: calc(100vh - 52px);
+	margin-top: 0;
+}
+
+.centerize{
+	text-align: center;
+}
+
+#markerGeneral, #markerHouse, #markerOffice{
+    background-image: url('../images/marker.png');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+#markerHouse{
+	background-image: url('../images/house.png');
+}
+
+#markerOffice{
+	background-image: url('../images/office.png');
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.leftNav{
+	margin-bottom: 15px;
+}
+
+.ptr{
+	cursor: pointer;
+}
+
+textarea{
+	resize: vertical;
+}
+
+.wrap{
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+
+.link{color: black;}
+
+.link:hover{color: #639fff;}
+
+.popImg{width: 100%;}
+
+.popImg:hover{cursor: pointer; opacity: 0.5}
+
+.sinenav, #rBlock {height: calc(100vh - 52px)}
+
+#citiesBtn{border-radius: 0;}
+
+a{cursor: pointer;}
+
+#rBlock{
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 0;
+}
+
+#markerList{
+    /*overflow: auto;
+    max-height: 430px;*/
+}
+
+.badge{
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: initial;
+    background-color: red;
+    font-size: 10px;
+}
+
+#lNav{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: calc(100vh - 52px);
+    overflow: auto;
+    z-index: 1;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    /*background: url("https://blog.spoongraphics.co.uk/wp-content/uploads/2015/topographic-map/6.jpg");*/
+}
+
+.list-group-item:first-child{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.list-group-item:last-child{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
